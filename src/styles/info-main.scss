@@ -1,0 +1,70 @@
+.info__headshot,
+.info__headshot-img {
+	display: block;
+	width: 170px;
+	height: 170px;
+	margin: auto;
+	border-radius: 0;
+}
+
+.info__headshot-img {
+	border-radius: 100%;
+}
+
+.info__elevator-text {
+	display: block;
+	max-width: 460px;
+	margin: 20px auto auto;
+	padding: 0 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+}
+
+.info__button {
+	position: relative;
+	display: block;
+	width: 200px;
+	margin: 30px auto auto;
+	padding: 11px 24px;
+	transition: 0.3s color ease;
+	text-decoration: none;
+	color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #fff;
+	border-radius: 3px;
+	background: #fff;
+	background: #462373;
+	font-weight: 700;
+	line-height: 22px;
+}
+
+.info__button::after {
+    font-size: 24px;
+    float: right;
+    content: "📮"
+}
+
+.info__button:hover {
+	color: #462373;
+	background-color: #fff;
+}
+
+.info__elevator-text {
+	display: block;
+	max-width: 460px;
+	margin: 20px auto auto;
+	padding: 0 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 22px;
+}
+
+@media (min-width: 1024px) {
+	.info__elevator-text {
+		max-width: 550px;
+		padding: 0 40px;
+		font-size: 30px;
+	}
+}
