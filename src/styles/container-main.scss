@@ -1,0 +1,55 @@
+.container-main {
+	display: inline-block;
+	margin-bottom: 50px;
+	padding: 20px;
+}
+
+.main__tag {
+	margin: 0 0 20px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #462373;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.main__container-about,
+.main__container-experiences,
+.main__container-projects {
+	display: block;
+	clear: both;
+	overflow: auto;
+	margin: 40px 0 0;
+	animation-delay: 0.6s;
+}
+@media (min-width: 1024px) {
+	.main__tag {
+		float: left;
+		clear: both;
+		width: 80px;
+		margin: 24px 30px 0 0;
+	}
+
+	.main__copy {
+		float: left;
+		width: 75%;
+		max-width: 500px;
+	}
+}
+@media (min-width:768px) {
+	.container-main {
+		position: fixed;
+		top: 0;
+		right: 0;
+		float: right;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		width: 55%;
+		height: 100%;
+		padding-bottom: 50px;
+	}
+
+	.main__copy {
+		line-height: 26px;
+	}
+}
