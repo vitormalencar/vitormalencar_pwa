@@ -1,0 +1,55 @@
+@keyframes fadeUp {
+	0% {
+		transform: translateY(20px);
+		opacity: 0;
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+@keyframes animStar {
+	0% {
+		transform: translateY(0);
+	}
+
+	to {
+		transform: translateY(-2000px);
+	}
+}
+
+.info-footer__social-icon--github,
+.info-footer__social-icon--instagram,
+.info-footer__social-icon--linkedin,
+.info-footer__social-icon--twitter,
+.main__container-about,
+.main__container-experiences,
+.main__container-projects {
+	-webkit-animation: fadeUp ease-in 1;
+	animation: fadeUp ease-in 1;
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+	opacity: 0;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.main__project-title:after {
+	display: inline-block;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	vertical-align: middle;
+	box-shadow: 0 0 1px transparent;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
