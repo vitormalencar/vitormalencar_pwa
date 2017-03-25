@@ -1,0 +1,45 @@
+.main__experience {
+	margin-bottom: 20px;
+}
+
+.main__experience--first {
+	margin-bottom: 20px;
+	margin-left: 0;
+}
+
+.main__experience:last-child {
+	margin-bottom: 0;
+}
+
+.main__experience-title {
+	margin: 20px 0 10px;
+	transition: 0.3s opacity ease;
+}
+
+.main__experience-title:hover {
+	opacity: 0.6;
+}
+
+.main__experience-title:after {
+	position: relative;
+	bottom: 0.2ex;
+	margin-left: 20px;
+	content: "⚛️";
+	color: #462373;
+	font-family: FontAwesome;
+	font-size: 12px;
+}
+@media (min-width: 1024px) {
+	.main__experience--first {
+		float: left;
+		max-width: 500px;
+		margin-left: 0;
+	}
+
+	.main__experience {
+		float: left;
+		max-width: 500px;
+		margin-bottom: 20px;
+		margin-left: 110px;
+	}
+}
