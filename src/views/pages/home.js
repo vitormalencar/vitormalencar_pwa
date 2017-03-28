@@ -1,18 +1,18 @@
 import {h} from 'preact';
 
-import Button from '../../components/Button';
+import data from '../../data.json';
 import SideNav from '../../components/SideNav';
 import InfoMain from '../../components/InfoMain';
 import InfoFooter from '../../components/InfoFooter';
 import MainContent from '../../components/MainContent';
 
 const App = () => (
-	<div>
-	<SideNav>
-		<InfoMain/>
-		<InfoFooter/>
-	</SideNav>
-	<MainContent/>
+	<div id='page'>
+		<SideNav>
+			<InfoMain name={data.name} role={data.role} mail={data.mail}/>
+			<InfoFooter/>
+		</SideNav>
+		<MainContent {...data}/>
 	</div>
 );
 
