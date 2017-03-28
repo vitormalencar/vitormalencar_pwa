@@ -1,0 +1,28 @@
+.info__button {
+	position: relative;
+	display: block;
+	width: 250px;
+	margin: 30px auto 40px;
+	padding: 11px 24px;
+	transition: 0.3s color ease;
+	text-decoration: none;
+	color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #fff;
+	border-radius: 3px;
+	background: #462373;
+	font-weight: 700;
+	line-height: 22px;
+
+	&:hover {
+		color: #462373;
+		background-color: #fff;
+	}
+}
+
+.info__button::after {
+	float: right;
+	content: "▶︎";
+	font-size: 24px;
+}
