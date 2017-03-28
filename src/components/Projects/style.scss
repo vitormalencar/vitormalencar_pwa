@@ -1,0 +1,27 @@
+.main__project {
+	margin-bottom: 20px;
+}
+.main__project-info-title {
+	font-weight: 700;
+	line-height: 26px;
+	display: block;
+	&:hover {
+		opacity: 0.6;
+	}
+	&:after {
+		position: relative;
+		bottom: 0.2ex;
+		margin-left: 20px;
+		content: "▶︎";
+		color: #462373;
+		font-size: 12px;
+	}
+}
+@media(min-width: 1024px) {
+	.main__project {
+		max-width: 500px;
+		margin-left: 110px;
+		margin-top: 18px;
+		margin-bottom: 40px;
+	}
+}
