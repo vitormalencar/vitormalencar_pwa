@@ -1,0 +1,41 @@
+.main__experience,
+.main__experience--first {
+	margin-bottom: 20px;
+
+}
+
+.main__experience-title {
+	font-weight: 700;
+	line-height: 26px;
+	display: block;
+	transition: 0.3s opacity ease;
+
+	&:hover {
+		opacity: 0.6;
+	}
+
+	&:after {
+		position: relative;
+		bottom: 0.2ex;
+		margin-left: 20px;
+		content: "▶︎";
+		color: #462373;
+		font-size: 12px;
+	}
+}
+@media(min-width: 1024px) {
+	.main__experience--first {
+		float: left;
+		max-width: 500px;
+		margin-left: 0;
+		margin-bottom: 40px;
+		margin-top: 20px;
+	}
+
+	.main__experience {
+		float: left;
+		max-width: 500px;
+		margin-bottom: 40px;
+		margin-left: 110px;
+	}
+}
