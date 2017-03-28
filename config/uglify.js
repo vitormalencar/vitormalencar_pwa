@@ -2,6 +2,7 @@ module.exports = {
 	output: {
 		comments: 0
 	},
+	sourceMap: false,
 	compress: {
 		unused: 1,
 		warnings: 0,
