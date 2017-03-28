@@ -8,7 +8,10 @@ const PurifyCSSPlugin = require('purifycss-webpack');
 const Dashboard = require('webpack-dashboard/plugin');
 const SWPrecache = require('sw-precache-webpack-plugin');
 const ExtractText = require('extract-text-webpack-plugin');
+const CnameWebpackPlugin = require('cname-webpack-plugin');
 const CriticalPlugin = require('webpack-plugin-critical').CriticalPlugin;
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
+
 
 const uglify = require('./uglify');
 const babel = require('./babel');
@@ -55,11 +58,19 @@ module.exports = isProd => {
 		    dest: 'index.html'
   	}),
 			new SWPrecache({
+				minify: true,
 				filename: 'service-worker.js',
 				dontCacheBustUrlsMatching: /./,
 				navigateFallback: 'index.html',
-				staticFileGlobsIgnorePatterns: [/\.map$/]
-			})
+				staticFileGlobsIgnorePatterns: [/\.map$/],
+				runtimeCaching: [{
+          handler: 'cacheFirst',
+					urlPattern: /\.googleapis\.com\//,
+        }]
+			}),
+			new CnameWebpackPlugin({
+					 domain: 'www.vitormalencar.com'
+			 })
 		);
 	} else {
 		// dev only
