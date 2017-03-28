@@ -1,0 +1,47 @@
+.info-footer__social {
+	font-size: 22px;
+	position: absolute;
+	right: 20px;
+	bottom: 30px;
+	height: 27px;
+
+	a {
+		float: right;
+		margin-left: 10px;
+		padding-top: 4px;
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
+.info-footer__social-icon--twitter {
+	animation: fadeUp ease-in 1;
+	animation-duration: 0.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: 1.6s;
+}
+
+.info-footer__social-icon--github {
+	animation: fadeUp ease-in 1;
+	animation-duration: 0.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: 1.4s;
+}
+
+.info-footer__social-icon--instagram {
+	animation: fadeUp ease-in 1;
+	animation-duration: 0.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: 1.2s;
+}
+
+.info-footer__social-icon--linkedin {
+	animation: fadeUp ease-in 1;
+	animation-duration: 0.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: 0.8s;
+}
