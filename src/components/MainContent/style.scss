@@ -1,0 +1,18 @@
+.container-main {
+	display: inline-block;
+	padding: 20px;
+	background-color: #fff;
+}
+@media(min-width:768px) {
+	.container-main {
+		position: fixed;
+		top: 0;
+		right: 0;
+		float: right;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		width: 58%;
+		height: 100%;
+		padding-bottom: 50px;
+	}
+}
