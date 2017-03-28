@@ -1,5 +1,7 @@
 # vitormalencar.com :atom_symbol:
 
+<a align="center" href="https://vitormalencar.com"><img width="100%" src="src/static/img/banner.png" alt="Vitor Alencar - Developer"></a>
+
 
 ## Features
 
