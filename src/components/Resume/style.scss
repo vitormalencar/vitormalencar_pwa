@@ -1,0 +1,26 @@
+.main__resume {
+	display: block;
+	margin: 20px 0;
+	padding: 15px 20px;
+	transition: 0.3s color ease;
+	border: 1px solid #462373;
+	border-radius: 3px;
+	font-weight: 700;
+	color: #462373;
+
+	&:hover {
+		color: #fff;
+		background-color: #462373;
+	}
+
+	&:after {
+		float: right;
+		content: "▶︎";
+	}
+}
+@media (min-width: 1024px) {
+	.main__resume {
+		margin-left: 110px;
+		max-width: 500px;
+	}
+}
