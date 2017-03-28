@@ -1,0 +1,40 @@
+.container-info {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	min-width: 320px;
+	min-height: 410px;
+	margin-top: -25px;
+	padding-top: 40px;
+	padding-bottom: 60px;
+	background-color: #462373;
+}
+
+.info-main {
+	width: 100%;
+	animation: fadeIn ease-in 1;
+	animation-duration: 0.3s;
+	animation-delay: 0.3s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+}
+
+@media(min-width:768px) {
+	.container-info {
+		position: fixed;
+		top: 0;
+		left: 0;
+		float: left;
+		width: 40%;
+		height: 100vh;
+		margin-top: 0;
+		padding-top: 0;
+	}
+
+	.info-main {
+		position: relative;
+		top: 55%;
+		margin: 0;
+		transform: translateY(-60%);
+	}
+}
