@@ -11,7 +11,7 @@ module.exports = env => {
 	return {
 		entry: {
 			app: './src/index.js',
-			vendor: ['preact','preact-router']
+			vendor: ['preact']
 		},
 		output: {
 			path: dist,
