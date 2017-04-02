@@ -1,7 +1,9 @@
 {
+  "lang": "en",
   "name": "Vitor Alencar",
-  "short_name": "Vitor Alencar",
-  "start_url": "/?homescreen=1",
+  "short_name": "VitorAlencar",
+  "description":"Vitor Alencar - Developer and speaker, focused on new and scalable technologies, who loves sharing knowledge.",
+  "start_url": "./?utm_source=web_app_manifest&utm_medium=web_app_manifest",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#462373",
