@@ -9,13 +9,13 @@
     "duration": "2015 - 2017",
     "role": "Front-End Engineer",
     "link": "https://agendakidsdigital.com",
-    "description": "Developing web and mobile applications in Javascript  using (React - new projects and Angular - old projects), webpack SASS, HTML, Mocha, for cliend-side and Node.js and Ruby and Rails on server-side"
+    "description": "Developing web and mobile applications in Javascript  using (React - new projects and Angular - old projects), webpack SASS, HTML, Mocha, for client-side and Node.js and Ruby and Rails on server-side"
   }, {
     "name": "MILTECNOLOGIA",
     "duration": "2014 - 2015",
     "role": "Front-End Developer",
     "link": "http://miltecnologia.com.br/",
-    "description": "Creating innovative ERP projects HTML, CSS and JS to create SPAs (Single Page Applications) with AngularJS."
+    "description": "Creating innovative enterprise resource planning (ERP) projects using HTML, CSS and JS to create single page applications (SPA) with Angular.js."
   }, {
     "name": "NORDESTE BANK",
     "duration": "2013 - 2014",
@@ -31,12 +31,12 @@
     {
       "name": "GDG FORTALEZA",
       "link": "http://gdgfortaleza.org",
-      "description": "Google Developer Groups (GDG) are for developers who are interested in Google's developer technology; Everything from Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API."
+      "description": "google developer groups (GDG) are for developers who are interested in Google's developer technology; Everything from Android, Chrome, Drive, and Google Cloud platforms, to product APIs like the Cast API, Maps API, and YouTube API."
     },
     {
       "name": "FRONT-IN FORTALEZA",
       "link": "http://frontinfortaleza.com.br/",
-      "description": "Front-in Fortaleza was born as a Front-End conference, but today we are more than that. We were born together with the developer community in Brazil. We grow and mature together."
+      "description": "front-in fortaleza (FIF) was born as a Front-End conference, but today we are more than that. We were born together with the developer community in Brazil. We grow and mature together."
     }
   ]
 }
