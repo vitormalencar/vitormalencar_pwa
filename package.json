@@ -17,7 +17,6 @@
     "glob": "^7.1.1",
     "md-colors": "^1.0.0",
     "preact": "^7.2.1",
-    "preact-router": "^2.4.1",
     "purifycss-webpack": "^0.5.0",
     "webpack-plugin-critical": "^1.0.0"
   },
