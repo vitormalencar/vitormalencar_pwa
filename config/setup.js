@@ -63,6 +63,7 @@ module.exports = isProd => {
 		}),
 		new SWPrecache({
 			minify: true,
+			skipWaiting:true,
 			filename: 'service-worker.js',
 			dontCacheBustUrlsMatching: /./,
 			navigateFallback: 'index.html',
