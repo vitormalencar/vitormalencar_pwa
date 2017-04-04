@@ -12,10 +12,7 @@ let elem;
 const App = () => (
 	<div id='page'>
 		<SideNav>
-			<InfoMain
-				name={data.name}
-				role={data.role}
-				mail={data.mail}/>
+			<InfoMain name={data.name} role={data.role} mail={data.mail}/>
 			<InfoFooter/>
 		</SideNav>
 		<MainContent {...data}/>
@@ -23,15 +20,23 @@ const App = () => (
 );
 
 const init = () => {
-	elem = render(<App/>, document.getElementById('root'), elem);
+	elem = render(
+		<App/>, document.getElementById('root'), elem);
 }
 
 init();
 
 if (process.env.NODE_ENV === 'production') {
 	// cache all assets if browser supports serviceworker
+
 	if ('serviceWorker' in navigator && location.protocol === 'https:') {
-		navigator.serviceWorker.register('/service-worker.js');
+	  navigator.serviceWorker.register('/service-worker.js')
+	  .then((reg) => {
+	        console.log('🦄 Hey! did you know that this aplications is now ready to work offline?')
+	  })
+	  .catch((err) => {
+	    console.log(err);
+	  })
 	}
 	// add Google Analytics
 	(function(i, s, o, g, r, a, m) {
@@ -53,6 +58,6 @@ if (process.env.NODE_ENV === 'production') {
 	require('preact/devtools');
 	// listen for HMR
 	if (module.hot) {
-		module.hot.accept('./views', init);
+		module.hot.accept('./', init);
 	}
 }
