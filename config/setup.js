@@ -65,7 +65,7 @@ module.exports = isProd => {
 			minify: true,
 			skipWaiting:true,
 			filename: 'service-worker.js',
-			dontCacheBustUrlsMatching: /./,
+			dontCacheBustUrlsMatching: /^(?=.*\.\w{1,7}$)/,
 			navigateFallback: 'index.html',
 			staticFileGlobsIgnorePatterns: [/\.map$/]
 		}),
