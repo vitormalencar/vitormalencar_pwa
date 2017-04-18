@@ -17,8 +17,8 @@
 
 ## bundle sizes & perf
 ```
-  app.js                  12.4 kB,  Gzipped size: 4.8 kB
-  vendor.js               15.7 kB,  Gzipped size:  6.33 kB
+  app.js                  12.7 kB,  Gzipped size: 4.9 kB
+  vendor.js               9.49 kB,  Gzipped size:  3.9 kb
 ```
 
 
