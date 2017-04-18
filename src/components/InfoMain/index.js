@@ -6,7 +6,7 @@ import HeadShot from '../HeadShot';
 import InfoFooter from '../InfoFooter';
 import ElevatorText from '../ElevatorText';
 
-import avatar from '../../static/avatar/vitor_apcr2b_c_scale,w_432.jpg';
+import avatar from '../../static/avatar/vitor.webp';
 
 const InfoMain = ({name, role, mail}) => (
 	<div class="info-main">
