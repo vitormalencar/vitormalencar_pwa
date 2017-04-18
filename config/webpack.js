@@ -32,7 +32,7 @@ module.exports = env => {
 					exclude: exclude,
 					loader: 'babel-loader'
 				}, {
-					test: /\.(ttf|eot|svg|png|jpg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+					test: /\.(ttf|eot|svg|png|jpg|webp)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
 					loader: "file-loader"
 				}, {
 					test: /\.(sass|scss)$/,
