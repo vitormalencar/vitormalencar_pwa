@@ -3,8 +3,8 @@ import Project from './Project';
 import Style from './style.scss';
 
 const Projects = ({projects}) => (
-	<div class="main__container-projects">
-		<div class="main__tag">Projects</div>
+	<div className="main__container-projects">
+		<div className="main__tag">Projects</div>
 		{projects.map((project) => (<Project {...project}/>))}
 	</div>
 );

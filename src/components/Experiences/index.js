@@ -4,8 +4,8 @@ import Experience from './Experience';
 
 const Experiences = ({experiences}) => (
 
-	<div class="main__container-experiences">
-		<div class="main__tag">Experience</div>
+	<div className="main__container-experiences">
+		<div className="main__tag">Experience</div>
 		{experiences.map((experience, i) => {
 			if (i === 0) {
 				return (<Experience {...experience} tag='main__experience--first'/>);

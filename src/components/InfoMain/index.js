@@ -10,7 +10,7 @@ import webp from '../../static/avatar/vitor.webp';
 import png from '../../static/avatar/vitor.png';
 
 const InfoMain = ({name, role, mail}) => (
-	<div class="info-main">
+	<div className="info-main">
 		<HeadShot webp={webp} png={png} name={name}/>
 		<ElevatorText name={name} role={role}/>
 		<Button mail={mail}/>

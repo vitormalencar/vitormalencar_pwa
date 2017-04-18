@@ -1,7 +1,7 @@
 import {h} from 'preact';
 
 const SideNav = (props) => (
-	<div class="container-info">
+	<div className="container-info">
 		{props.children}
 	</div>
 );

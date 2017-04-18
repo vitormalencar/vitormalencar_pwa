@@ -8,7 +8,7 @@ import Achivements from '../Achivements';
 import Experiences from '../Experiences';
 
 const MainContent = ({projects, experiences, about,resume}) => (
-	<div class="container-main">
+	<div className="container-main">
 		<About about={about}/>
 		<Experiences experiences={experiences}/>
 		<Projects projects={projects}/>
