@@ -2,9 +2,9 @@ import {h} from 'preact';
 import Style from './style.scss';
 
 const About = ({about}) => (
-	<div class="main__container-about">
-		<div class="main__tag">About Me</div>
-		<p class="main__headline">
+	<div className="main__container-about">
+		<div className="main__tag">About Me</div>
+		<p className="main__headline">
 			Experienced and ambitious web developer and speaker, focused on new and scalable technologies,
 			who loves sharing knowledge and cares about self-improvement.
 			Enjoys talking in events and meetings about
