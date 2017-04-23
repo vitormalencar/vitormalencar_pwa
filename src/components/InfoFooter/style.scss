@@ -14,6 +14,7 @@
 	}
 }
 
+
 .info-footer__social-icon--twitter {
 	animation: fadeUp ease-in 1;
 	animation-duration: 0.5s;
@@ -44,4 +45,13 @@
 	opacity: 0;
 	animation-fill-mode: forwards;
 	animation-delay: 0.8s;
+}
+
+
+.info-footer__social-icon--skype {
+	animation: fadeUp ease-in 1;
+	animation-duration: 0.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	animation-delay: 1.8s;
 }
