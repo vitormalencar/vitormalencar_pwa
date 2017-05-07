@@ -10,7 +10,7 @@ const About = ({about}) => (
 			self-improvement. Enjoys talking in events and meetings about:
 			<br/>
 			<ul class='talks'>
-			<li><a href='https://speakerdeck.com/vitormalencar/getting-started-with-progressive-web-apps'>⚛ Progressive web apps</a></li>
+			<li><a href='https://speakerdeck.com/vitormalencar/getting-started-with-progressive-web-apps'>⚛&nbsp; Progressive web apps</a></li>
 			<li><a href='https://slides.com/robertovitormaia/deck-4-13-15/fullscreen'>ƛ Funcional programming</a></li>
 			<li><a href='https://speakerdeck.com/vitormalencar/ionic-rocks'>⚡️ Hybrid development.</a></li>
 			</ul>
