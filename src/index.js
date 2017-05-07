@@ -28,9 +28,9 @@ init();
 
 if (process.env.NODE_ENV === 'production') {
 	// cache all assets if browser supports serviceworker
-
+	require('./runtime');
 	if ('serviceWorker' in navigator && location.protocol === 'https:') {
-	  navigator.serviceWorker.register('/service-worker.js')
+	  navigator.serviceWorker.register('/sw.js')
 	  .then((reg) => {
 	        console.log('🦄 Hey! did you know that this aplications is now ready to work offline?')
 	  })
