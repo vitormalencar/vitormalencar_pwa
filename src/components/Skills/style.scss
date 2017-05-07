@@ -1,0 +1,42 @@
+.main__list {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	list-style-type: circle !important;
+
+	.main__list-item {
+		display: inline;
+		float: left;
+		width: 50%;
+		margin-bottom: 10px;
+		font-weight: 700;
+		line-height: 1.5em;
+
+		&:before {
+			position: relative;
+			bottom: 0.2ex;
+			margin-right:20px;
+			content: "\25B6\FE0E";
+			color: #462373;
+			font-size: 12px;
+		}
+	}
+}
+
+.skills {
+	overflow: hidden;
+	margin-bottom: 20px;
+
+	li {
+		display: inline;
+		float: left;
+		width: 50%;
+		line-height: 1.5em;
+	}
+}
+@media(min-width: 1024px) {
+
+	.main__list {
+		float: left;
+	}
+}
