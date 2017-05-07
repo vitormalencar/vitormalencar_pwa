@@ -12,6 +12,7 @@
 			word-wrap: break-word;
 			border-bottom: 2px dashed lighten(#462373, 20%);
 
+
 			&:hover {
 				color: lighten(#462373, 20%);
 			}
@@ -24,5 +25,10 @@
 		width: 75%;
 		max-width: 500px;
 		margin-top: 20px;
+	}
+	.talks{
+		a{
+			display: inline-block;
+		}
 	}
 }
