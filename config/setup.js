@@ -4,6 +4,7 @@ const webpack = require('webpack');
 const Copy = require('copy-webpack-plugin');
 const HTML = require('html-webpack-plugin');
 const Clean = require('clean-webpack-plugin');
+const OfflinePlugin = require('offline-plugin');
 const PurifyCSSPlugin = require('purifycss-webpack');
 const Dashboard = require('webpack-dashboard/plugin');
 const SWPrecache = require('sw-precache-webpack-plugin');
@@ -61,14 +62,18 @@ module.exports = isProd => {
 				verbose: true,
 				minimize: true
 		}),
-		new SWPrecache({
-			minify: true,
-			skipWaiting:true,
-			filename: 'service-worker.js',
-			dontCacheBustUrlsMatching: /^(?=.*\.\w{1,7}$)/,
-			navigateFallback: 'index.html',
-			staticFileGlobsIgnorePatterns: [/\.map$/]
-		}),
+		new OfflinePlugin({
+				relativePaths: false,
+				publicPath: '/',
+				updateStrategy: 'all',
+				safeToUseOptionalCaches: true,
+				caches: 'all',
+				ServiceWorker: {
+					navigateFallbackURL: '/',
+					events: true
+				},
+				AppCache: false
+			}),
 		new CnameWebpackPlugin({domain: 'www.vitormalencar.com'}));
 	} else {
 		// dev only
