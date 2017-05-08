@@ -3,11 +3,11 @@ import Style from './style.scss';
 
 const About = ({about}) => (
 	<div className="main__container-about">
-		<div className="main__tag">About Me</div>
+		<div className="main__tag">About</div>
 		<p className="main__headline">
 			Experienced and ambitious web developer and speaker, focused on new
 			and scalable technologies, who loves sharing knowledge and cares about
-			self-improvement. Enjoys talking in events and meetings about:
+			self-improvement. Enjoys talking in events and meetings about
 			<br/>
 			<ul class='talks'>
 			<li><a href='https://speakerdeck.com/vitormalencar/getting-started-with-progressive-web-apps'>⚛&nbsp; Progressive web apps</a></li>
