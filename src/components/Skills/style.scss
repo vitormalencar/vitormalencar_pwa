@@ -2,16 +2,13 @@
 	clear: both;
 	margin: 0;
 	padding: 0;
-	list-style-type: circle !important;
 
 	.main__list-item {
 		display: inline;
 		float: left;
 		width: 50%;
 		margin-bottom: 10px;
-		font-weight: 700;
 		line-height: 1.5em;
-		
 
 		&:before {
 			position: relative;
@@ -36,7 +33,6 @@
 	}
 }
 @media(min-width: 1024px) {
-
 	.main__list {
 		float: left;
 	}
