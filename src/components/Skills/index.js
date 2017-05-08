@@ -3,7 +3,7 @@ import Style from './style.scss';
 const Skills = () => (
 	<div class="main__container-about">
 		<div class="main__tag">Technical</div>
-		<p class="main__headline"> I currently have a lot of fun working with the following technologies:
+		<p class="main__headline">I currently have a lot of fun working on several projects with the following technologies:
 		<br/>
 		<br/>
 		<ul class="main__list">
