@@ -2,6 +2,7 @@
 	.talks {
 		li {
 			margin: 10px 0;
+
 		}
 
 		a {
@@ -11,7 +12,6 @@
 			text-decoration: none;
 			word-wrap: break-word;
 			border-bottom: 2px dashed lighten(#462373, 20%);
-
 
 			&:hover {
 				color: lighten(#462373, 20%);
