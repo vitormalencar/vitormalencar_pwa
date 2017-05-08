@@ -72,7 +72,9 @@ module.exports = isProd => {
 					navigateFallbackURL: '/',
 					events: true
 				},
-				AppCache: false
+				AppCache: {
+    			FALLBACK: { '/': '/'}
+  			}
 			}),
 		new CnameWebpackPlugin({domain: 'www.vitormalencar.com'}));
 	} else {
