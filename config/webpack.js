@@ -20,7 +20,6 @@ module.exports = env => {
 		},
 		resolve: {
 			alias: {
-				// you may need `preact-compat` instead!
 				'react': 'preact/aliases',
 				'react-dom': 'preact/aliases'
 			}
