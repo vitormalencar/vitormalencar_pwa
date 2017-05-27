@@ -2,6 +2,7 @@
 
 <a align="center" href="https://vitormalencar.com"><img width="100%" src="src/static/img/banner.png" alt="Vitor Alencar - Developer"></a>
 
+[![Code Climate](https://codeclimate.com/github/vitormalencar/vitormalencar_pwa/badges/gpa.svg)](https://codeclimate.com/github/vitormalencar/vitormalencar_pwa)
 
 ## Features
 
