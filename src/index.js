@@ -22,7 +22,7 @@ const App = () => (
 const init = () => {
 	elem = render(
 		<App/>, document.getElementById('root'), elem);
-}
+};
 
 init();
 
@@ -32,27 +32,12 @@ if (process.env.NODE_ENV === 'production') {
 	if ('serviceWorker' in navigator && location.protocol === 'https:') {
 	  navigator.serviceWorker.register('/sw.js')
 	  .then((reg) => {
-	        console.log('🦄 Hey! did you know that this aplications is now ready to work offline?')
+	        console.log('🦄 Hey! did you know that this aplications is now ready to work offline?');
 	  })
 	  .catch((err) => {
 	    console.log(err);
-	  })
+	  });
 	}
-	// add Google Analytics
-	(function(i, s, o, g, r, a, m) {
-		i['GoogleAnalyticsObject'] = r;
-		i[r] = i[r] || function() {
-			(i[r].q = i[r].q || []).push(arguments)
-		},
-		i[r].l = 1 * new Date();
-		a = s.createElement(o),
-		m = s.getElementsByTagName(o)[0];
-		a.async = 1;
-		a.src = g;
-		m.parentNode.insertBefore(a, m)
-	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-	ga('create', 'UA-89577115-1', 'auto');
-	ga('send', 'pageview');
 } else {
 	// use preact's devtools
 	require('preact/devtools');
