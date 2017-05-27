@@ -71,10 +71,7 @@ module.exports = isProd => {
 				ServiceWorker: {
 					navigateFallbackURL: '/',
 					events: true
-				},
-				AppCache: {
-    			FALLBACK: { '/': '/'}
-  			}
+				}
 			}),
 		new CnameWebpackPlugin({domain: 'www.vitormalencar.com'}));
 	} else {
