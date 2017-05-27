@@ -4,6 +4,19 @@
   "about": "I'm a developer and speaker, focused on new and scalable technologies, who loves sharing knowledge, talking in some events and meetings about",
   "mail": "mailto:vitor.maia.alencar@gmail.com",
   "resume":"https://drive.google.com/open?id=0B8OZqJp1YNrlUjZIcGwwYmRUNlk",
+  "social":[{
+    "name":"twitter",
+    "url":"https://twitter.com/vitormalencar"
+  },{
+    "name":"github",
+    "url":"https://github.com/vitormalencar"
+  },{
+    "name":"instagram",
+    "url":"https://www.instagram.com/vitormalencar"
+  },{
+    "name":"linkedin",
+    "url":"https://www.linkedin.com/in/vitormalencar"
+  }],
   "experiences": [{
     "name": "AGENDAKIDS",
     "duration": "2015 - 2017",

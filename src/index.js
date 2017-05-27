@@ -13,7 +13,7 @@ const App = () => (
 	<div id='page'>
 		<SideNav>
 			<InfoMain name={data.name} role={data.role} mail={data.mail}/>
-			<InfoFooter/>
+			<InfoFooter social={data.social}/>
 		</SideNav>
 		<MainContent {...data}/>
 	</div>
