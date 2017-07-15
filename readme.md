@@ -1,9 +1,20 @@
-# vitormalencar.com :atom_symbol:
+<p align="center">
 
-<a align="center" href="https://vitormalencar.com"><img width="100%" src="src/static/img/banner.png" alt="Vitor Alencar - Developer"></a>
+  <a align="center" href="https://vitormalencar.com" target="_blank">
+    <img width="100%" src="src/static/img/banner.png" alt="Vitor Alencar - Developer"></a>
+  </a>
+</p>
 
-[![Code Climate](https://codeclimate.com/github/vitormalencar/vitormalencar_pwa/badges/gpa.svg)](https://codeclimate.com/github/vitormalencar/vitormalencar_pwa)
-[![Build Status](https://travis-ci.org/vitormalencar/vitormalencar_pwa.svg?branch=master)](https://travis-ci.org/vitormalencar/vitormalencar_pwa)
+<h1 align="center">vitormalencar.com</h1>
+
+<p align="center">My personal PWA :atom_symbol:</p>
+
+<p align="center">
+  [![Code Climate](https://codeclimate.com/github/vitormalencar/vitormalencar_pwa/badges/gpa.svg)](https://codeclimate.com/github/vitormalencar/vitormalencar_pwa)
+  [![Build Status](https://travis-ci.org/vitormalencar/vitormalencar_pwa.svg?branch=master)](https://travis-ci.org/vitormalencar/vitormalencar_pwa)
+</p>
+
+
 ## Features
 
 * Offline Caching (via `serviceWorker`)
