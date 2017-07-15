@@ -17,11 +17,12 @@
 
 
 ## Summary
-🔥 offline Ready
-🎉 Small file size (4.9 minified + gzip)
-⚡️ Blazing fast performance
-⚛️ Build with [Preact](https:www.preactjs.com) :heart:
-🔨 Compose with Components
+
+- 🔥 offline Ready
+- 🎉 Small file size (4.9 minified + gzip)
+- ⚡️ Blazing fast performance
+- ⚛️ Build with [Preact](https:www.preactjs.com) :heart:
+- 🔨 Compose with Components
 
 
 ## Features
