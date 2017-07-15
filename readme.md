@@ -16,6 +16,13 @@
 </p>
 
 
+## Summary
+🔥 offline Ready
+🎉 Small file size (4.9 minified + gzip)
+⚡️ Blazing fast performance
+⚛️ Build with [Preact](https:www.preactjs.com) :heart:
+🔨 Compose with Components
+
 
 ## Features
 
@@ -27,6 +34,8 @@
 * Hot Module Replacement (HMR) for all files
 * Preact's [Developer Tools](#preact-developer-tools)
 * [Lighthouse](https://github.com/GoogleChrome/lighthouse) certified
+
+
   ![lightouse](src/static/img/lighthouse.jpg)
 
 ## bundle sizes & perf
