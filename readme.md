@@ -10,9 +10,11 @@
 <p align="center">My personal PWA :atom_symbol:</p>
 
 <p align="center">
-  [![Code Climate](https://codeclimate.com/github/vitormalencar/vitormalencar_pwa/badges/gpa.svg)](https://codeclimate.com/github/vitormalencar/vitormalencar_pwa)
-  [![Build Status](https://travis-ci.org/vitormalencar/vitormalencar_pwa.svg?branch=master)](https://travis-ci.org/vitormalencar/vitormalencar_pwa)
+  <a href="https://travis-ci.org/vitormalencar/vitormalencar_pwa"><img src="https://travis-ci.org/vitormalencar/vitormalencar_pwa.svg?branch=maste" alt="Build Status"></a>
+  <a href="https://codeclimate.com/github/vitormalencar/vitormalencar_pwa"><img src="https://codeclimate.com/github/vitormalencar/vitormalencar_pwa/badges/gpa.svg" alt="Code Climate"></a>
+  <a href=""><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 </p>
+
 
 
 ## Features
