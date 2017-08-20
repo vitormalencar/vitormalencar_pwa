@@ -1,23 +1,23 @@
-const glob = require('glob');
-const { join } = require('path');
-const webpack = require('webpack');
-const Copy = require('copy-webpack-plugin');
-const HTML = require('html-webpack-plugin');
-const Clean = require('clean-webpack-plugin');
-const OfflinePlugin = require('offline-plugin');
-const PurifyCSSPlugin = require('purifycss-webpack');
-const Dashboard = require('webpack-dashboard/plugin');
-const SWPrecache = require('sw-precache-webpack-plugin');
-const ExtractText = require('extract-text-webpack-plugin');
-const CnameWebpackPlugin = require('cname-webpack-plugin');
-const CriticalPlugin = require('webpack-plugin-critical').CriticalPlugin;
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
-const CompressionPlugin = require("compression-webpack-plugin");
-const StyleExtHtmlWebpackPlugin = require('style-ext-html-webpack-plugin');
-var HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
+const glob                          = require('glob');
+const { join }                      = require('path');
+const webpack                       = require('webpack');
+const babel                         = require("./babel");
+const uglify                        = require("./uglify");
+const OfflinePlugin                 = require('offline-plugin');
+const PurifyCSSPlugin               = require('purifycss-webpack');
+const Copy                          = require('copy-webpack-plugin');
+const HTML                          = require('html-webpack-plugin');
+const Clean                         = require('clean-webpack-plugin');
+const CnameWebpackPlugin            = require('cname-webpack-plugin');
+const Dashboard                     = require('webpack-dashboard/plugin');
+const CompressionPlugin             = require("compression-webpack-plugin");
+const SWPrecache                    = require('sw-precache-webpack-plugin');
+const ExtractText                   = require('extract-text-webpack-plugin');
+const StyleExtHtmlWebpackPlugin     = require('style-ext-html-webpack-plugin');
+const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
+const CriticalPlugin                = require('webpack-plugin-critical').CriticalPlugin;
+const BundleAnalyzerPlugin          = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
-const uglify = require('./uglify');
-const babel = require('./babel');
 
 const root = join(__dirname, '..');
 
