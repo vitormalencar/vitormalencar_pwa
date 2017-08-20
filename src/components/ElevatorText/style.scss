@@ -1,14 +1,14 @@
 .info__elevator_text {
-	font-size: 24px;
-	display: block;
-	padding: 0;
-	text-align: center;
-	color: #fff;
-	line-height: 1.2;
+  font-size: 24px;
+  display: block;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 1.2;
 }
 
-@media(min-width:768px) {
-	.info__elevator_text{
-		font-size: 34px;
-	}
+@media (min-width: 768px) {
+  .info__elevator_text {
+    font-size: 34px;
+  }
 }

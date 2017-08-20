@@ -4,82 +4,82 @@ $color_meteorite_approx: #462373;
 $white: #fff; //fonts
 $font_1: arial;
 $font_2: sans-serif;
-
 %extend_1 {
-	width: 100%;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	color: $color_tundora_approx;
-	background: $white;
-	font-family: $font_1, $font_2;
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 1.6;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: $color_tundora_approx;
+  background: $white;
+  font-family: $font_1, $font_2;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 body {
-	@extend %extend_1;
+  @extend %extend_1;
 }
 
 html {
-	@extend %extend_1;
+  @extend %extend_1;
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 a {
-	text-decoration: none;
-	color: $color_tundora_approx;
-	background-color: transparent;
+  text-decoration: none;
+  color: $color_tundora_approx;
+  background-color: transparent;
 }
 
 li {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 ul {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-	font-size: 28px;
-	font-weight: 700;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 h2 {
-	font-size: 28px;
-	font-size: 18px;
-	font-weight: 700;
+  font-size: 28px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 #page {
-	background: #fff;
-	position: absolute;
-	z-index: 2;
-	top: 0;
-	width: 100%;
-	height: 100%;
+  background: #fff;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .main__tag {
-	margin: 0 0 20px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	color: $color_meteorite_approx;
-	font-size: 12px;
-	font-weight: bold;
+  margin: 0 0 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $color_meteorite_approx;
+  font-size: 12px;
+  font-weight: bold;
 }
-@media(min-width: 1024px) {
-	.main__tag {
-		float: left;
-		clear: both;
-		width: 80px;
-		margin: 24px 30px 0 0;
-	}
+
+@media (min-width: 1024px) {
+  .main__tag {
+    float: left;
+    clear: both;
+    width: 80px;
+    margin: 24px 30px 0 0;
+  }
 }
