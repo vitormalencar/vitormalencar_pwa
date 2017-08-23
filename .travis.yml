@@ -21,9 +21,9 @@ cache:
   directories:
     - node_modules
 
-script:
-  - yarn bundlesize
-
+after_script:
+  - yarn run build
+  - yarn test:size
 # Necessary to compile native modules for io.js v3 or Node.js v4
 env:
   - CXX=g++-4.8
