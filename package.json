@@ -12,7 +12,8 @@
     "deploy": "yarn build && gh-pages -d dist -r https://github.com/vitormalencar/vitormalencar.github.io -b master",
     "staging": "yarn build && surge dist --domain https://vitormalencar.surge.sh",
     "gh-clean": "rm -rf node_modules/gh-pages/.cache",
-    "test:size": "bundlesize"
+    "test:size": "bundlesize",
+    "test": "echo allgood"
   },
   "dependencies": {
     "preact": "^8.2.7"
