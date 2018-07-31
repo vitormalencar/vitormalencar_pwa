@@ -10,10 +10,8 @@ const InfoFooter = ({ social }) =>
           href={`${item.url}`}
           target="_blank"
           rel="noopener"
-          className={`info-footer__social-icon--${item.name}`}
-        >
-          <Icon icon={`${item.name}`} color="white" size="22" />
-          {item.name}
+          className={`info-footer__social-icon--${item.name}`}>
+          <Icon title={item.name} icon={`${item.name}`} color="white" size="22" />
         </a>
       )}
     </div>

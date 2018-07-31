@@ -4,7 +4,6 @@ import About from '../About';
 import Resume from '../Resume';
 import Style from './style.scss';
 import Projects from '../Projects';
-import Achivements from '../Achivements';
 import Skills from '../Skills';
 import Experiences from '../Experiences';
 

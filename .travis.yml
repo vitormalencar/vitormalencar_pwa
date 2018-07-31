@@ -2,8 +2,6 @@ sudo: false
 language: node_js
 matrix:
   include:
-    - node_js: "6.9.1"
-    - node_js: "7"
     - node_js: "8"
 
 dist: trusty
@@ -26,7 +24,6 @@ after_script:
 
 after_success:
   - npm run deploy
-
 # Necessary to compile native modules for io.js v3 or Node.js v4
 env:
   - CXX=g++-4.8

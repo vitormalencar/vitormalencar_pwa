@@ -12,12 +12,14 @@
     "deploy": "yarn build && gh-pages -d dist -r https://github.com/vitormalencar/vitormalencar.github.io -b master",
     "staging": "yarn build && surge dist --domain https://vitormalencar.surge.sh",
     "gh-clean": "rm -rf node_modules/gh-pages/.cache",
-    "test:size": "bundlesize"
+    "test:size": "bundlesize",
+    "test": "echo allgood"
   },
   "dependencies": {
-    "preact": "^8.1.0"
+    "preact": "^8.2.7"
   },
-  "bundlesize": [{
+  "bundlesize": [
+    {
       "path": "./dist/vendor.*.js",
       "maxSize": "5kB"
     },
@@ -45,7 +47,7 @@
     "eslint-loader": "^1.6.1",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-react": "^7.0.0",
-    "extract-text-webpack-plugin": "^3.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^0.11.1",
     "gh-pages": "^1.0.0",
     "glob": "^7.1.1",
@@ -58,7 +60,7 @@
     "purifycss-webpack": "^0.7.0",
     "sass-loader": "^6.0.3",
     "serve": "^6.0.6",
-    "style-ext-html-webpack-plugin": "^3.4.1",
+    "style-ext-html-webpack-plugin": "^3.4.7",
     "style-loader": "^0.18.2",
     "sw-precache-webpack-plugin": "^0.11.4",
     "webpack": "^3.5.5",
