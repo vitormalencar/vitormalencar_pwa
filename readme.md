@@ -19,6 +19,8 @@
 
 ## Summary
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vitormalencar/vitormalencar_pwa.svg)](https://greenkeeper.io/)
+
 - 🔥 offline Ready
 - 🎉 Small file size (4.9 minified + gzip)
 - ⚡️ Blazing fast performance
