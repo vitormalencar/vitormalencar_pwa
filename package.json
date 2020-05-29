@@ -49,7 +49,7 @@
     "eslint-plugin-react": "^7.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^6.0.0",
-    "gh-pages": "^2.1.1",
+    "gh-pages": "^3.0.0",
     "glob": "^7.1.1",
     "html-webpack-inline-source-plugin": "0.0.10",
     "html-webpack-plugin": "^4.0.0",
