@@ -25,7 +25,7 @@
     },
     {
       "path": "./dist/app.*.js",
-      "maxSize": "6kB"
+      "maxSize": "5kB"
     }
   ],
   "devDependencies": {
